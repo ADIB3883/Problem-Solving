@@ -1,0 +1,1 @@
+{"name":"Local: baseconversion1","url":"c:\\Users\\MSI PC\\Problem-Solving\\NumberTheory\\baseconversion1.cpp","tests":[{"id":1766434306400,"input":"7 16\n15 15 4 0 0 7 10\n7 9\n4 8 0 3 1 5 0\n","output":">\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\MSI PC\\Problem-Solving\\NumberTheory\\baseconversion1.cpp","group":"local","local":true}
