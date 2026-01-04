@@ -24,44 +24,35 @@ using namespace std;
 void solve() {
    ll i,j,k,n,m,c=0,s=0,f=0,t,x,y,z;
    string p;
-   cin>>n;
-   vector<ll>v(n);
-   for(i=0;i<n;i++)
+   cin>>p;
+   n=p.size();
+   ll ans=0;
+   for(ll mask=0;mask< (1<<(n-1));mask++)
    {
-      cin>>v[i];
+    ll sum=0;
+    ll cur=p[0]-'0';
+    for(i=0;i<n-1;i++)
+    {
+        if(mask & (1<<i))
+        {
+            sum+=cur;
+            cur=p[i+1]-'0';
+        }
+        else
+        {
+            cur=cur*10+(p[i+1]-'0');
+        }
+    }
+    sum+=cur;
+    ans+=sum;
    }
-   for(i=1;i<n-1;i++)
-   {
-      if(v[i]==-1)
-      {
-         v[i]=0;
-      }
-   }
-   if(v[0]==-1 && v[n-1]==-1)
-   {
-      v[0]=v[n-1]=0;
-   }
-   else if(v[0]==-1)
-   {
-      v[0]=v[n-1];
-   }
-   else if(v[n-1]==-1)
-   {
-      v[n-1]=v[0];
-   }
-   x=abs(v[n-1]-v[0]);
-   cout<<x<<'\n';
-   for(ll u:v)
-   {
-      cout<<u<<" ";
-   }
-   cout<<'\n';
+   cout<<ans<<'\n';
 }
 int main(){
    ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
    ll t;
    t=1;
-   cin>>t;
+   //cin>>t;
    while(t--)
    {
      solve();
