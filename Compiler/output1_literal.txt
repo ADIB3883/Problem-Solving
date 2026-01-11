@@ -1,0 +1,4 @@
+"The LCM of %d and %d is %d.\n" 22
+"Enter two positive integers: " 33
+"%d %d" 34
+"GCD  %d\n\n" 37

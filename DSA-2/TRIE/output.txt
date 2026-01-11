@@ -1,0 +1,27 @@
+inserted apple
+inserted ape
+inserted app
+inserted bag
+inserted bad
+inserted mist
+inserted apps
+ape
+app
+apple
+apps
+bad
+bag
+mist
+FOUND apple
+ape
+app
+apps
+bad
+bag
+mist
+DID NOT FOUND apple
+ape
+apps
+bad
+bag
+mist

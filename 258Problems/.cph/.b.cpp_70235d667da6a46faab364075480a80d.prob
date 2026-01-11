@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"c:\\Users\\MSI PC\\Problem-Solving\\258Problems\\b.cpp","tests":[{"id":1768114643830,"input":"6\n2 1\n2 2\n3 2\n5 3\n2 2\n3 3\n","output":"2 3 0\n0 4 1\n4 1 0\n5 0 0\n0 4 1\n3 2 0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\MSI PC\\Problem-Solving\\258Problems\\b.cpp","group":"local","local":true}

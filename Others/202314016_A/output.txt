@@ -1,0 +1,47 @@
+Inserted successfully in the symbol table at index 8 and column 0
+Inserted successfully in the symbol table at index 72 and column 0
+Inserted successfully in the symbol table at index 16 and column 0
+Inserted successfully in the symbol table at index 80 and column 0
+8 -> <a,IDENTIFIER>
+16 -> <funcname,FUNCTION>
+72 -> <b,IDENTIFIER>
+80 -> <abc,FUNCTION>
+Found at 80,0
+Found at 8,0
+Not found in the symbol table
+Deleted from the symbol table at index 80,0
+8 -> <a,IDENTIFIER>
+16 -> <funcname,FUNCTION>
+72 -> <b,IDENTIFIER>
+Inserted successfully in the symbol table at index 36 and column 0
+Not found in the symbol table
+Inserted successfully in the symbol table at index 4 and column 0
+Inserted successfully in the symbol table at index 8 and column 1
+Inserted successfully in the symbol table at index 72 and column 1
+4 -> <=,RELOP>
+8 -> <a,IDENTIFIER><==,RELOP>
+16 -> <funcname,FUNCTION>
+36 -> <123,NUMBER>
+72 -> <b,IDENTIFIER><>=,RELOP>
+It already exists in the symbol table
+Deleted from the symbol table at index 8,1
+4 -> <=,RELOP>
+8 -> <a,IDENTIFIER>
+16 -> <funcname,FUNCTION>
+36 -> <123,NUMBER>
+72 -> <b,IDENTIFIER><>=,RELOP>
+Not found in the symbol table
+Inserted successfully in the symbol table at index 72 and column 2
+4 -> <=,RELOP>
+8 -> <a,IDENTIFIER>
+16 -> <funcname,FUNCTION>
+36 -> <123,NUMBER>
+72 -> <b,IDENTIFIER><>=,RELOP><204,NUMBER>
+Deleted from the symbol table at index 72,2
+It already exists in the symbol table
+It already exists in the symbol table
+4 -> <=,RELOP>
+8 -> <a,IDENTIFIER>
+16 -> <funcname,FUNCTION>
+36 -> <123,NUMBER>
+72 -> <b,IDENTIFIER><>=,RELOP>

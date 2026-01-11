@@ -1,0 +1,454 @@
+Inserted at position2,0
+0->
+1->
+2-><int,Keyword>
+3->
+4->
+5->
+6->
+7->
+8->
+9->
+10->
+11->
+Inserted at position4,0
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function>
+5->
+6->
+7->
+8->
+9->
+10->
+11->
+Foud at 2,0
+Value already exists
+Inserted at position6,0
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function>
+5->
+6-><n1,Identifier>
+7->
+8->
+9->
+10->
+11->
+Foud at 2,0
+Value already exists
+Inserted at position8,0
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function>
+5->
+6-><n1,Identifier>
+7->
+8-><n2,Identifier>
+9->
+10->
+11->
+Inserted at position8,1
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function>
+5->
+6-><n1,Identifier>
+7->
+8-><n2,Identifier><while,Keyword>
+9->
+10->
+11->
+Inserted at position8,2
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function>
+5->
+6-><n1,Identifier>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator>
+9->
+10->
+11->
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Inserted at position6,1
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator>
+9->
+10->
+11->
+Foud at 6,0
+Value already exists
+Inserted at position4,1
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator>
+9->
+10->
+11->
+Foud at 8,0
+Value already exists
+Foud at 6,0
+Value already exists
+Inserted at position8,3
+0->
+1->
+2-><int,Keyword>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator>
+9->
+10->
+11->
+Foud at 8,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 8,3
+Value already exists
+Foud at 6,0
+Value already exists
+Inserted at position2,1
+0->
+1->
+2-><int,Keyword><return,Keyword>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator>
+9->
+10->
+11->
+Foud at 6,0
+Value already exists
+Foud at 2,0
+Value already exists
+Inserted at position8,4
+0->
+1->
+2-><int,Keyword><return,Keyword>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Foud at 2,0
+Value already exists
+Foud at 6,0
+Value already exists
+Foud at 2,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 2,0
+Value already exists
+Inserted at position0,0
+0-><minMultiple,Identifier>
+1->
+2-><int,Keyword><return,Keyword>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Foud at 0,0
+Value already exists
+Inserted at position2,2
+0-><minMultiple,Identifier>
+1->
+2-><int,Keyword><return,Keyword><=,Operator>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Foud at 4,1
+Value already exists
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 8,1
+Value already exists
+Inserted at position2,3
+0-><minMultiple,Identifier>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Foud at 6,1
+Value already exists
+Inserted at position2,4
+0-><minMultiple,Identifier>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator>
+3->
+4-><GCD,Function><>,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Foud at 0,0
+Value already exists
+Inserted at position4,2
+0-><minMultiple,Identifier>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator>
+3->
+4-><GCD,Function><>,Operator><==,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Foud at 6,0
+Value already exists
+Inserted at position0,1
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator>
+3->
+4-><GCD,Function><>,Operator><==,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function>
+9->
+10->
+11->
+Inserted at position8,5
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator>
+3->
+4-><GCD,Function><>,Operator><==,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator>
+9->
+10->
+11->
+Foud at 2,4
+Value already exists
+Foud at 0,0
+Value already exists
+Foud at 4,2
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 0,1
+Value already exists
+Inserted at position2,5
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function>
+3->
+4-><GCD,Function><>,Operator><==,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator>
+9->
+10->
+11->
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 0,0
+Value already exists
+Inserted at position2,6
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator>
+9->
+10->
+11->
+Inserted at position4,3
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator><+=,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator>
+9->
+10->
+11->
+Foud at 0,0
+Value already exists
+Foud at 2,3
+Value already exists
+Foud at 2,0
+Value already exists
+Inserted at position10,0
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator><+=,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator>
+9->
+10-><main,Function>
+11->
+Foud at 2,0
+Value already exists
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Inserted at position4,4
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator><+=,Operator><gcd,Identifier>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator>
+9->
+10-><main,Function>
+11->
+Inserted at position8,6
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator><+=,Operator><gcd,Identifier>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator><lcm,Identifier>
+9->
+10-><main,Function>
+11->
+Foud at 2,5
+Value already exists
+Inserted at position10,1
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator><+=,Operator><gcd,Identifier>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator><lcm,Identifier>
+9->
+10-><main,Function><scanf,Function>
+11->
+Inserted at position4,5
+0-><minMultiple,Identifier><0,Number>
+1->
+2-><int,Keyword><return,Keyword><=,Operator><1,Number><%,Operator><printf,Function><break,Keyword>
+3->
+4-><GCD,Function><>,Operator><==,Operator><+=,Operator><gcd,Identifier><&,Operator>
+5->
+6-><n1,Identifier><if,Keyword>
+7->
+8-><n2,Identifier><while,Keyword><!=,Operator><-=,Operator><LCM,Function><&&,Operator><lcm,Identifier>
+9->
+10-><main,Function><scanf,Function>
+11->
+Foud at 6,0
+Value already exists
+Foud at 4,5
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 4,4
+Value already exists
+Foud at 2,2
+Value already exists
+Foud at 4,0
+Value already exists
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 2,5
+Value already exists
+Foud at 4,4
+Value already exists
+Foud at 8,4
+Value already exists
+Foud at 6,0
+Value already exists
+Foud at 8,0
+Value already exists
+Foud at 2,1
+Value already exists
+Foud at 0,1
+Value already exists

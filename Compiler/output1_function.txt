@@ -1,0 +1,9 @@
+GCD 1
+LCM 13
+printf 22
+main 29
+printf 33
+scanf 34
+GCD 36
+printf 37
+LCM 39

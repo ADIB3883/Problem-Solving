@@ -1,0 +1,70 @@
+#include<bits/stdc++.h>
+#define cmp(typ) complex<typ>
+#define vsort(vc) sort(vc.begin(),vc.end())
+#define vrsort(vc) sort(vc.rbegin(),vc.rend())
+#define srev(st) reverse(st.rbegin(),st.rend())
+#define debug(x)
+#define YES cout<<"YES\n"
+#define NO cout<<"NO\n"
+#define Yes cout<<"Yes\n"
+#define No cout<<"No\n"
+#define yes cout<<"yes\n"
+#define no cout<<"no\n"
+#define Case(a) cout<<"Case "<<a<<": "
+#define CaseN(a) cout<<"Case "<<a<<": "
+#define psum(vc,sm) partial_sum(vc.begin(),vc.end(),sm.begin()+1)
+#define pxor(vc,sm) partial_sum(vc.begin(),vc.end(),sm.begin()+1,[](LL x,LL y){return x^y;})
+#define pgcdLeft(vc,sm) partial_sum(vc.begin(),vc.end(),sm.begin()+1,[](LL x,LL y){return __gcd(x,y);})
+#define pgdcRight(vc,sm) partial_sum(vc.rbegin(),vc.rend(),sm.begin()+1,[](LL x,LL y){return __gcd(x,y);})
+#define ll long long int
+#define dub double
+#define dubb long double
+#define pb push_back
+#define pi acos(-1)
+using namespace std;
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    ll i,tc=0,n,t;
+    cin>>t;
+    while(t--)
+    {
+        cin>>n;
+        CaseN(++tc);
+        vector<ll> vec;
+        vec.push_back(1);
+        for(i=2; i*i<=n; i++)
+        {
+            if(n%i==0)
+            {
+                ll syz=vec.size();
+                while(n%i==0)
+                {
+                    ll syz2=vec.size();
+                    for(ll idx=syz2-1; idx>=syz2-syz; idx--)
+                    {
+                        vec.push_back(vec[idx]*i);
+                    }
+                    n/=i;
+                }
+            }
+        }
+        if(n>1)
+        {
+            ll syz=vec.size();
+            for(ll idx=vec.size()-1; idx>=0; idx--)
+            {
+                vec.push_back(vec[idx]*n);
+            }
+        }
+cout<<'\n';
+    for(i=0;i<vec.size();i++)
+    {
+        cout<<vec[i]<<" ";
+    }
+    cout<<'\n';
+    }
+    return 0;
+}
